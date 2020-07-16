@@ -1,0 +1,170 @@
+body{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+nav{
+  position: absolute;
+}
+.nav{
+  float: right;
+  margin-right: 0;
+  display:flex;
+  list-style:none;
+   white-space: nowrap;
+}
+.nav-item:hover{
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+}
+.inner-sections {
+
+  min-height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+}
+.price{
+  margin: 30px;
+  padding: 30px;
+
+}
+section{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section-four{
+  padding: 30px;
+  text-align: center;
+  color: white;
+
+	left:0;
+	right:0;
+  background-image: url("pricebg.jpg");
+	background-size:cover;
+}
+.car-btn{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bottom-bg{
+  padding: 30px;
+  text-align: center;
+  color: white;
+	position:absolute;
+	left:0;
+	right:0;
+  background-image: url("wdimage2.jpeg");
+	background-size:cover;
+  background-attachment: fixed;
+	z-index:0;
+}
+.item img{
+  /*-webkit-filter: grayscale(95%);
+  -moz-filter:grayscale(95%);
+  -o-filter: grayscale(95%);
+  -ms-filter: grayscale(95%);
+  filter: grayscale(95%);*/
+  -webkit-filter: blur(3px);
+  -moz-filter:blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.carousel{
+  left: 0;
+  right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.carousel-images{
+
+  max-height: 80vh;
+  min-height: 80vh;
+
+}
+h1{
+  font-weight: 900;
+
+}
+.mid-div{
+  width: 70vw;
+}
+.apply-color{
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fa1616;
+}
+.apply-color2{
+color: #fa26a0;
+}
+.content{
+
+
+  z-index: 2;
+
+  position: relative;
+}
+hr{
+  width: 20vw;
+  height: 2px;
+  background: black;
+}
+button{
+  background-color: #fa26a0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button a{
+    color: white;
+}
+.row{
+  margin: auto;
+  padding: 10px;
+}
+
+.work-item img{
+  width: 25vw
+}
+.work-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .work-item img{
+    width: 60vw;
+    height: 60vw;
+  }
+}
+.work-item img:hover{
+  -webkit-filter: saturate(10%) ;
+  -moz-filter:saturate(10%);
+  -o-filter:saturate(10%) ;
+  -ms-filter:saturate(10%) ;
+  filter: saturate(10%);
+  cursor: pointer;
+}
+.card-body{
+  border: 1px solid grey;
+  padding: 10px ;
+}
+.card-body:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+button:hover, a:hover{
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px;
+}
