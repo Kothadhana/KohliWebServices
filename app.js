@@ -1,7 +1,9 @@
 $("#img1").on("click",function(){
   window.open("http://www.aquashipping.co.in/");
 });
-
+$("#img2").on("click",function(){
+  window.open("BrandBuild.jpg");
+});
 $("#img3").on("click",function(){
   window.open("http://hardipshipping.com/");
 });
@@ -10,4 +12,10 @@ $("#img4").on("click",function(){
 });
 $("#img5").on("click",function(){
   window.open("http://paragwealth.com/");
+});
+$("#img6").on("click",function(){
+  window.open("webDes.jpg");
+});
+$("#img7").on("click",function(){
+  window.open("webdev.jpg");
 });
