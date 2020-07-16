@@ -1,22 +1,50 @@
+
 body{
   margin-top: 20px;
   font-size: 16px;
 }
+div.scrollmenu {
 
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 
 .navbar-brand{
   font-family: 'Pacifico', cursive;
   font-size: 25px;
 }
-nav{
-  position: absolute;
+.brand{
+  color:#fa26a0;
+
+}
+.section-one{
+   margin-top: 55px;
+}
+
+
+
+
+::-webkit-scrollbar {
+      width: 3px;
+    }
+.nav-item{
+  white-space: nowrap;
+   display: inline-block;
 }
 .nav{
   float: right;
   margin-right: 0;
-  display:flex;
   list-style:none;
-   white-space: nowrap;
+  display: flex;
+
 }
 .nav-item:hover{
   color: white;
@@ -60,7 +88,7 @@ section{
   padding: 30px;
   text-align: center;
   color: white;
-	position:absolute;
+
 	left:0;
 	right:0;
   background-image: url("wdimage2.jpeg");
@@ -110,10 +138,7 @@ h1{
 color: #fa26a0;
 }
 .content{
-
-
   z-index: 2;
-
   position: relative;
 }
 hr{
@@ -145,6 +170,9 @@ button a{
   .work-item img{
     width: 60vw;
     height: 60vw;
+  }
+  .section-one{
+    margin-top: 100px;
   }
 }
 .work-item img:hover{
